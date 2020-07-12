@@ -7,5 +7,6 @@ public interface GroupRepository extends JpaRepository<Group, Long>
     // sung made a change here
     Group findByName(String name);
     // a change here
+    // emily made a change here
 }
 
